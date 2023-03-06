@@ -11,6 +11,7 @@ html, body {
 	padding: 0px; 
 	margin: 0px; 
 	color: #8a8a8a;
+	/* background-color: rgba(113, 184, 66, 0.6); */
 }
 
 a {
@@ -368,7 +369,7 @@ img {
 	margin: 80px 80px 30px;
 	border-radius: 30px;
 	padding: 80px 0px;
-	background-color: rgba(113, 184, 66, 0.6);
+	background-color: rgba(113, 184, 66, 0.5);
 }
 /* .text_p{
 	font-style: 0px;
@@ -412,6 +413,46 @@ img {
 	margin: 0 auto;
 	float: none;
 	width: 500px;
+}
+
+.f_container{
+	/* background-color: purple; */
+	width: 400px;
+	margin: 0 auto;
+}
+input{
+	width: 350px;
+	margin: 8px;
+	padding: 10px;
+	background-color: rgba(113, 184, 66, 0.1);
+	border-radius: 12px;
+	outline: none;
+	border: 2.5px dotted rgb(255, 255, 255);
+}
+/* button{
+	margin: 0 auto;
+} */
+
+.b_style{
+	display:flex;
+	justify-content: center;
+}
+.b_style button{
+	border-radius: 12px;
+	outline: none;
+	border: none;
+	margin-top: 12px;
+	padding: 10px;
+	font-weight: 600;
+	font-family: Indie Flower;
+
+}
+
+.b_style button:hover{
+	background-color: rgb(113, 184, 66);
+	color: hsl(0, 0%, 98%);
+	width: 200px;
+	transition: all ease 1s;
 }
 
 /* .templatemo_clientimage {
