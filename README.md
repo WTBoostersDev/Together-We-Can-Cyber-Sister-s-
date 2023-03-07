@@ -1,9 +1,9 @@
 # Together-We-Can-Cyber-Sister-s-
 Women Techsters Cohort 2.5 Software Development (Group 4) project.
-LINK
+**LINK**
 https://wtboostersdev.github.io/Together-We-Can-Cyber-Sister-s-/
 
-# CYBERSISTERS TEAM
+**# CYBERSISTERS TEAM**
 •	Lawal Temidayo: lawal.temidayo@outlook.com  (Team Lead)
 •	Hana Degefa hana.degefa2010@outlook.com (Assistant Team Lead)
 •	Oreoluwa Adesanya oreoluwaruth.ng@outlook.com
