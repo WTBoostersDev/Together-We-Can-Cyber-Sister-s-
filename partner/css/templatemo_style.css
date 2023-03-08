@@ -66,6 +66,9 @@ img {
   	background-color: white;
   	z-index: 5000;
 }
+.site-header{
+	font-size: 16px;
+}
 
 /* .templatemo_top	{
 	position: fixed;
@@ -833,11 +836,11 @@ and (max-device-width : 1024px) {
 	#slider-control-nav { opacity: 1; }
 }
 
-/* Footer styling starts here */
+/* Footer styling starts here  */
 
-/* .footer-container{
+.footer-container{
     background-color: rgb(38, 38, 54);
-    padding: 2rem 0 2rem 0;
+    padding-top: 70px;
 }
 
 .footer{
@@ -849,6 +852,7 @@ and (max-device-width : 1024px) {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+	font-size: 16px;
 }
 .footer-heading{
     display: flex;
@@ -865,25 +869,25 @@ and (max-device-width : 1024px) {
 }
 .footer-heading a:hover{
     color: white
-  /* transition: 0.3s ease out; */
-/* }
+  transition: 0.3s ease out;
+}
 .footer-email-form h2{
     margin-bottom: 2rem;
-} */
-/* #footer-email{
+}
+#footer-email{
     width: 250px;
     height: 40px;
     border-radius: 4px;
     outline: none;
     border: none;
     padding-left: 0.5rem;
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 1rem;
 }
 #footer-email::placeholder{
     color: grey
-} */
-/* #footer-email-btn{
+}
+#footer-email-btn{
     width: 100px;
     height: 40px;
     border-radius: 4px;
@@ -892,13 +896,13 @@ and (max-device-width : 1024px) {
     border: none;
     color: black;
     font-size: 1rem;
-}  */
-/* #footer-email-btn:hover{
+}  
+#footer-email-btn:hover{
     cursor: pointer;
     background-color: rgb(67, 83, 136);
     transition: all 0.4s ease-out;
-}  */
-/* @media screen and (max-width: 750px){
+} 
+@media screen and (max-width: 750px){
     .footer{
         height: 10vh; 
     }
@@ -919,4 +923,4 @@ and (max-device-width : 1024px) {
     margin-top: 2rem;
 }
     
-    } */
+    }
