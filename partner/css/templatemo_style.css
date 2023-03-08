@@ -835,7 +835,7 @@ and (max-device-width : 1024px) {
 
 /* Footer styling starts here */
 
-.footer-container{
+/* .footer-container{
     background-color: rgb(38, 38, 54);
     padding: 2rem 0 2rem 0;
 }
@@ -866,11 +866,11 @@ and (max-device-width : 1024px) {
 .footer-heading a:hover{
     color: white
   /* transition: 0.3s ease out; */
-}
+/* }
 .footer-email-form h2{
     margin-bottom: 2rem;
-}
-#footer-email{
+} */
+/* #footer-email{
     width: 250px;
     height: 40px;
     border-radius: 4px;
@@ -882,8 +882,8 @@ and (max-device-width : 1024px) {
 }
 #footer-email::placeholder{
     color: grey
-}
-#footer-email-btn{
+} */
+/* #footer-email-btn{
     width: 100px;
     height: 40px;
     border-radius: 4px;
@@ -892,13 +892,13 @@ and (max-device-width : 1024px) {
     border: none;
     color: black;
     font-size: 1rem;
-} 
-#footer-email-btn:hover{
+}  */
+/* #footer-email-btn:hover{
     cursor: pointer;
     background-color: rgb(67, 83, 136);
     transition: all 0.4s ease-out;
-}
-@media screen and (max-width: 750px){
+}  */
+/* @media screen and (max-width: 750px){
     .footer{
         height: 10vh; 
     }
@@ -919,4 +919,4 @@ and (max-device-width : 1024px) {
     margin-top: 2rem;
 }
     
-    }
+    } */
