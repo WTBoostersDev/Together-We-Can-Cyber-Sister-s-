@@ -11,14 +11,14 @@
         <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
 
         <!-- CSS FILES -->        
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-
         <link href="css/newstyle.css" rel="stylesheet">
+        <!-- <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet"> -->
 
+        <link href="./css landing page/bootstrap.min.css" rel="stylesheet">
+
+        <link href="./css landing page/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css landing page/templatemo-kind-yheart-charit.css" rel="stylesheet">
         
 
 
@@ -27,17 +27,64 @@
     <body>
 
         <!-- header -->
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./Logo.png" class="logo img-fluid" alt="Together We Can">
+                    <span>
+                        Together We Can
+                        <small>Non-profit Organization</small>
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
+
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="./partner/index.html">Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="investor.html">Invest</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="./charity.html">Donate</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
+                        </li>
+
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
         <main>
 
             <!-- sign Up Form -->
             
-            <section class="contact-section section-padding" >
-                <div >
-                    <img src="images/back.png" alt="" style="width: 50px; height: 50px;">
-                    <a href="investor.html" class="navbar-brand"> Back</a>
-                </div>
+            <section class="section-padding" >
+                
                 <div class="col-lg-5 col-12 mx-auto">                    
                 <form class="custom-form contact-form" action="#" method="post" role="form">
                     <h2>Sign Up</h2>
@@ -76,6 +123,7 @@
 
 
 <!-- footer -->
+
 
 
 
